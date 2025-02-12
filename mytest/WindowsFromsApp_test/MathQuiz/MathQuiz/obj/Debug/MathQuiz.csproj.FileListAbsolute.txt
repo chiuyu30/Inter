@@ -1,0 +1,10 @@
+D:\mytest\WindowsFromsApp_test\MathQuiz\MathQuiz\bin\Debug\MathQuiz.exe.config
+D:\mytest\WindowsFromsApp_test\MathQuiz\MathQuiz\bin\Debug\MathQuiz.exe
+D:\mytest\WindowsFromsApp_test\MathQuiz\MathQuiz\bin\Debug\MathQuiz.pdb
+D:\mytest\WindowsFromsApp_test\MathQuiz\MathQuiz\obj\Debug\MathQuiz.csproj.AssemblyReference.cache
+D:\mytest\WindowsFromsApp_test\MathQuiz\MathQuiz\obj\Debug\MathQuiz.From1.resources
+D:\mytest\WindowsFromsApp_test\MathQuiz\MathQuiz\obj\Debug\MathQuiz.Properties.Resources.resources
+D:\mytest\WindowsFromsApp_test\MathQuiz\MathQuiz\obj\Debug\MathQuiz.csproj.GenerateResource.cache
+D:\mytest\WindowsFromsApp_test\MathQuiz\MathQuiz\obj\Debug\MathQuiz.csproj.CoreCompileInputs.cache
+D:\mytest\WindowsFromsApp_test\MathQuiz\MathQuiz\obj\Debug\MathQuiz.exe
+D:\mytest\WindowsFromsApp_test\MathQuiz\MathQuiz\obj\Debug\MathQuiz.pdb

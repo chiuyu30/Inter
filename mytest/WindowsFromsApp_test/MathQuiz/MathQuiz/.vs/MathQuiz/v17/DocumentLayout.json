@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{995CFE6C-340F-403B-9C01-54402EFBEA1F}|MathQuiz.csproj|D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{995CFE6C-340F-403B-9C01-54402EFBEA1F}|MathQuiz.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{995CFE6C-340F-403B-9C01-54402EFBEA1F}|MathQuiz.csproj|d:\\mytest\\windowsfromsapp_test\\mathquiz\\mathquiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{995CFE6C-340F-403B-9C01-54402EFBEA1F}|MathQuiz.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{995CFE6C-340F-403B-9C01-54402EFBEA1F}|MathQuiz.csproj|D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{995CFE6C-340F-403B-9C01-54402EFBEA1F}|MathQuiz.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{995CFE6C-340F-403B-9C01-54402EFBEA1F}|MathQuiz.csproj|D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{995CFE6C-340F-403B-9C01-54402EFBEA1F}|MathQuiz.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T08:12:40.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\Form1.Designer.cs*",
+              "RelativeToolTip": "Form1.Designer.cs*",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAawOwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T06:48:02.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AQIAAFgAAAAAAAAAAADgv34AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T06:30:22.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\mytest\\WindowsFromsApp_test\\MathQuiz\\MathQuiz\\Form1.cs [\u8A2D\u8A08]*",
+              "RelativeToolTip": "Form1.cs [\u8A2D\u8A08]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T06:27:01.431Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
