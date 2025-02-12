@@ -1,0 +1,37 @@
+參考:https://git-scm.com/book/zh-tw/v2/Git-%e5%9f%ba%e7%a4%8e-%e5%8f%96%e5%be%97%e4%b8%80%e5%80%8b-Git-%e5%80%89%e5%84%b2
+環境git bash:
+
+1.進入要建立資料庫的資料夾 
+  $ git init
+
+2.把檔案內容加入下一個提交中(追蹤)
+  $ git add .
+  只加入需要的檔案
+  $ git add <folder name/file name>
+
+3."提交"追蹤的檔案進入"預存"
+  $ git commit -m '<info>'
+
+4.若對追蹤的檔案進行修改或新增檔案時，查看狀態會回報尚未追蹤(track)或提交(commit)的檔案
+  $ git status
+  On branch master
+  Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+          readme.txt
+
+  nothing added to commit but untracked files present (use "git add" to track)
+
+5.查看歷史提交紀錄
+  $ git log
+
+6.連結遠端資料庫(需要先在github/gitlab...等地方建立資料庫)
+  $ git remote add origin <資料庫連結>
+
+7.確認正確連結
+  $ git remote -v
+
+8.推送到遠端庫(origin:遠端庫名稱，master:分支名稱)
+  $ push origin master
+
+
+  
