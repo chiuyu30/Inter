@@ -1,4 +1,3 @@
-
 `timescale 1ns/10ps
 module LBP ( clk, reset, gray_addr, gray_req, gray_ready, gray_data, lbp_addr, lbp_valid, lbp_data, finish);
     input   	    clk;
@@ -14,10 +13,10 @@ module LBP ( clk, reset, gray_addr, gray_req, gray_ready, gray_data, lbp_addr, l
     /**********************************************************************
                                 declaration
     **********************************************************************/
-    reg [13:0]  gray_addr;
-    reg         gray_req;
+    reg [13:0]  gray_addr;//ok
+    reg         gray_req;//ok
     reg [13:0]  lbp_addr;
-    reg         lbp_valid;
+    reg         lbp_valid;//ok
     reg [7:0]   lbp_data;
     reg         finish;
 
@@ -29,10 +28,18 @@ module LBP ( clk, reset, gray_addr, gray_req, gray_ready, gray_data, lbp_addr, l
 
     reg [7:0]   img_buf     [0:16383];
     reg [7:0]   thrshld     [0:16383];
-    reg [7:0]   cent;
+    wire [7:0]  cent;
     reg [13:0]  cent_point;
+    reg         g7; 
+    reg         g6;
+    reg         g5;
+    reg         g4;
+    reg         g3;
+    reg         g2;
+    reg         g1;
+    reg         g0;
     integer i;
-
+//==============================================================================================================
      /*********************************************************************
                                  state machine    
     **********************************************************************/
@@ -56,7 +63,7 @@ module LBP ( clk, reset, gray_addr, gray_req, gray_ready, gray_data, lbp_addr, l
                         state_nt = READ;
                 end
                 CALC:begin
-                    if(cent_pointt == 14'd16254)
+                    if(cent_point == 14'd16254)
                         state_nt = WRITE;
                     else
                         state_nt = CALC;
@@ -65,14 +72,14 @@ module LBP ( clk, reset, gray_addr, gray_req, gray_ready, gray_data, lbp_addr, l
                     state_nt = WRITE;
                 end
                 default:begin
-                    state_nt = IDLE;
+                    state_nt = READ;
                 end
             endcase
         end
     end
 
     /**********************************************************************
-                                    output    
+                                    state output    
     **********************************************************************/
     always@(*)begin
         case(state_cr)
@@ -100,13 +107,11 @@ module LBP ( clk, reset, gray_addr, gray_req, gray_ready, gray_data, lbp_addr, l
     always@(posedge reset or negedge clk)begin
         if(reset)
             gray_addr <= 14'd0;
-        else if(state_cr == READ)begin
-            if(gray_ready == 1'b1)begin
-                if(gray_addr == 14'd16383)
-                    gray_addr <= gray_addr;
-                else
-                    gray_addr <= gray_addr + 14'd1;
-            end
+        else if(gray_ready)begin
+            if(gray_addr == 14'd16383)
+                gray_addr <= gray_addr;
+            else
+                gray_addr <= gray_addr + 14'd1;
         end
         else begin
             gray_addr <= gray_addr;
@@ -116,37 +121,141 @@ module LBP ( clk, reset, gray_addr, gray_req, gray_ready, gray_data, lbp_addr, l
                                   img_buf    
     **********************************************************************/
     always@(posedge clk)begin
-        case(state_nt)
+        case(state_cr)
             READ:begin
                 img_buf[gray_addr] <= gray_data;
             end
             CALC:begin
-                if(cent_point == )
-                img_buf <= img_buf;
+                //img_buf <= img_buf;
             end
             WRITE:begin
-                img_buf <= thrshld;
+                //img_buf <= img_buf;
             end    
             default:begin
-              img_buf <= img_buf;
+                //img_buf <= img_buf;
             end 
-        end
+        endcase
+
+        /*
+        if(gray_ready)
+            img_buf[gray_addr] <= gray_data;
+        else if (lbp_valid)
+            img_buf <= thrshld;
+        else
+            img_buf <= img_buf;
+        */
     end
     /**********************************************************************
                                   thrshld    
     **********************************************************************/
-    always@(posedge clk)begin
-        case(state_cr)
-            READ:begin
-                
-            end
-            CALC:begin
-            end
-            WRITE:begin
-            end
-        endcase
+    
+    always@(posedge reset or posedge clk)begin
+        if(reset)begin
+            for(i = 0; i < 16384; i = i + 1)
+                thrshld[i] <= 8'd0;
+        end  
+        else begin  
+            case(state_cr)
+                READ:begin
+                    //thrshld <= thrshld;
+                end
+                CALC:begin
+                    thrshld[cent_point] <= cent;
+                end
+                WRITE:begin
+                    //thrshld <= thrshld;
+                end
+            endcase
+        end
     end
 
+    //cent point
+    always@(posedge clk)begin
+        if(reset)
+            cent_point <= 14'd128;
+        else begin
+            case(state_cr)
+                READ:begin
+                    cent_point <= cent_point;
+                end
+                CALC:begin
+                    if(cent_point == 14'd16254)
+                        cent_point <= cent_point;
+                    else if(cent_point % 14'd128 == 14'd126)
+                        cent_point <= cent_point + 14'd3;
+                    else
+                        cent_point <= cent_point + 14'd1;
+                end
+                WRITE:begin
+                        cent_point <= cent_point;
+                end
+            endcase
+        end
+    end
+
+    //side point calculate
+    always@(*)begin
+        if (cent_point >= 14'd129)  g0 = (img_buf[cent_point - 14'd129] >= img_buf[cent_point]) ? 1'b1 : 1'b0;
+        else g0 = 1'b0;
+
+        if (cent_point >= 14'd128)  g1 = (img_buf[cent_point - 14'd128] >= img_buf[cent_point]) ? 1'b1 : 1'b0;
+        else g1 = 1'b0;
+
+        if (cent_point >= 14'd127)  g2 = (img_buf[cent_point - 14'd127] >= img_buf[cent_point]) ? 1'b1 : 1'b0;
+        else g2 = 1'b0;
+
+        if (cent_point >= 14'd1)  g3 = (img_buf[cent_point - 14'd1] >= img_buf[cent_point]) ? 1'b1 : 1'b0;
+        else g3 = 1'b0;
+
+        if (cent_point <= 14'd16382)  g4 = (img_buf[cent_point + 14'd1] >= img_buf[cent_point]) ? 1'b1 : 1'b0;
+        else g4 = 1'b0;
+        
+        if (cent_point <= 14'd16256)  g5 = (img_buf[cent_point + 14'd127] >= img_buf[cent_point]) ? 1'b1 : 1'b0;
+        else g5 = 1'b0;
+
+        if (cent_point <= 14'd16255)  g6 = (img_buf[cent_point + 14'd128] >= img_buf[cent_point]) ? 1'b1 : 1'b0;
+        else g6 = 1'b0;
+
+        if (cent_point <= 14'd16254)  g7 = (img_buf[cent_point + 14'd129] >= img_buf[cent_point]) ? 1'b1 : 1'b0;
+        else g7 = 1'b0;
+    end
+
+    assign cent = {g7, g6, g5, g4, g3, g2, g1, g0};
+
+    /**********************************************************************
+                                  lbp_addr    
+    **********************************************************************/
+    always@(posedge reset or posedge clk)begin
+        if(reset)
+            lbp_addr <= 14'd128;
+        else if(lbp_valid)begin
+            if(lbp_addr == 14'd16254)
+                lbp_addr <= lbp_addr;
+            else
+                lbp_addr <= lbp_addr + 14'd1;
+        end
+        else begin
+            lbp_addr <= lbp_addr;
+        end
+    end
+    /**********************************************************************
+                                  lbp_data    
+    **********************************************************************/
+    always@(posedge clk)begin
+        if(lbp_valid)
+            lbp_data <= thrshld[lbp_addr];
+        else
+            lbp_data <= lbp_data;
+    end
+    /**********************************************************************
+                                  finish    
+    **********************************************************************/
+    always@(posedge clk)begin
+        if(lbp_addr == 14'd16254)
+            finish <= 1'b1;
+        else
+            finish <= 1'b0;
+    end
 
 //====================================================================
 endmodule

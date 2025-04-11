@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Intern\\mytest\\Data_Structure\\Data_Structure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1711A2C-B0BB-433D-B8B9-1D5909C21347}|Data_Structure.vcxproj|D:\\Intern\\mytest\\Data_Structure\\Data_Structure\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1711A2C-B0BB-433D-B8B9-1D5909C21347}|Data_Structure.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 231,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "D:\\Intern\\mytest\\Data_Structure\\Data_Structure\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "D:\\Intern\\mytest\\Data_Structure\\Data_Structure\\main.c*",
+              "RelativeToolTip": "main.c*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-12T01:31:59.281Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

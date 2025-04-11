@@ -1,0 +1,17 @@
+D:\CO_test\CO_test\CO_test\bin\Release\CO_test.exe
+D:\CO_test\CO_test\CO_test\bin\Release\CO_test.pdb
+D:\CO_test\CO_test\CO_test\obj\Release\CO_test.Form1.resources
+D:\CO_test\CO_test\CO_test\obj\Release\CO_test.Properties.Resources.resources
+D:\CO_test\CO_test\CO_test\obj\Release\CO_test.csproj.GenerateResource.Cache
+D:\CO_test\CO_test\CO_test\obj\Release\CO_test.exe
+D:\CO_test\CO_test\CO_test\obj\Release\CO_test.pdb
+D:\CO_test\CO_test\CO_test\obj\Release\CO_test.csprojResolveAssemblyReference.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\bin\Release\Alphasense_UI.exe
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\bin\Release\Alphasense_UI.pdb
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Release\CO_test.csprojAssemblyReference.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Release\CO_test.Form1.resources
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Release\Alphasense_UI.Properties.Resources.resources
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Release\CO_test.csproj.GenerateResource.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Release\CO_test.csproj.CoreCompileInputs.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Release\Alphasense_UI.exe
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Release\Alphasense_UI.pdb

@@ -1,0 +1,21 @@
+加入標籤(tag)來控管版本
+
+1.為上一次提交(commit)增加標籤，註解可加可不加
+  $ git tag <版本號> -m '<註解>'
+
+2.為之前的提交增加標籤
+  $ git log --pretty=oneline  (查看commit歷史)
+  e289e5a6ec0c8604e7ef40d162b2cfe683823c95 (HEAD -> master, origin/master) add git建立流程
+  edebcf3a41d5e07c019149fc7610a48ac1184bb4 initial
+
+  $ git tag -a v1.2 e289e5a   (-a:加入作者&時間資訊的註解(可省略)，v1.2:tag名，e289e5a:校驗碼(後面可忽略))
+
+
+3.查看tag list
+  $ git tag
+
+4.查看tag資訊
+  $ git show <tag名稱>
+
+5.推送標籤
+  $ git push origin <tag名稱>

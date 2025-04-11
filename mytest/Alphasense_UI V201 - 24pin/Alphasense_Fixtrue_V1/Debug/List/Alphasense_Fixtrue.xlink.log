@@ -1,0 +1,354 @@
+Stack usage
+
+Call graph (*** = already visited):
+
+  interrupt:
+  0 USCIB0_ISR [8]
+    8 - [0]
+
+  interrupt:
+  0 NMI_ISR [16]
+    12 UCS_clearAllOscFlagsWithTimeout [4]
+      16 - [0]
+
+  interrupt:
+  0 TIMER1_A0_ISR [16]
+    12 Timer_A_getCaptureCompareCount [4]
+      16 - [0]
+    12 Timer_A_setCompareValue [4]
+      16 - [0]
+
+  interrupt:
+  0 USCI_A1_ISR [8]
+    8 - [0]
+
+  Program entry:
+  0 __program_start [280]
+    0 __data16_memzero [4]
+      4 - [0]
+    0 __data16_memcpy [4]
+      0 memcpy [4]
+        4 - [0]
+      4 - [0]
+    0 main [280]
+      4 WDT_A_hold [4]
+        8 - [0]
+      4 system_init [28]
+        8 PMM_setVCore [24]
+          16 PMM_setVCoreUp [16]
+            32 - [0]
+          16 PMM_setVCoreDown [16]
+            32 - [0]
+        8 UCS_initClockSignal [4]
+          12 - [0]
+        8 UCS_initFLLSettle [12]
+          14 UCS_initFLL [6]
+            20 - [0]
+        8 SFR_clearInterrupt [4]
+          12 - [0]
+        4 SFR_enableInterrupt [4]
+          8 - [0]
+      4 peripheral_init [30]
+        8 eusci_b_i2c_port_init [12]
+          14 delay_micro_second [6]
+            20 - [0]
+        8 hal_uart_txrx_init [26]
+          28 GPIO_setAsPeripheralModuleFunctionInputPin [4]
+            32 - [0]
+          28 ?ClearMemoryWords [6]
+            34 - [0]
+          28 EUSCI_A_UART_init [6]
+            34 - [0]
+          28 EUSCI_A_UART_enable [4]
+            32 - [0]
+          28 EUSCI_A_UART_clearInterrupt [4]
+            32 - [0]
+          28 EUSCI_A_UART_enableInterrupt [4]
+            32 - [0]
+        8 Reset_switch_init [4]
+          8 GPIO_setAsOutputPin [4]
+            12 - [0]
+          12 - [0]
+        4 SHT3X_Init [4]
+          4 SHT3X_SetI2cAdr [4]
+            8 - [0]
+          8 - [0]
+      4 task_timer_init [28]
+        26 ?ClearMemoryWords [6] ***
+        26 Timer_A_initContinuousMode [4]
+          30 - [0]
+        26 Timer_A_clearCaptureCompareInterrupt [4]
+          30 - [0]
+        26 Timer_A_initCompareMode [4]
+          30 - [0]
+        26 Timer_A_startCounter [4]
+          30 - [0]
+      4 check_port_gas_address [48]
+        14 get_i2c_test_results [38]
+          32 aeclmg_calcCrc [6]
+            38 - [0]
+          32 eusci_b_i2c_tx_multi [16]
+            36 eusci_b_i2c_port_init [12] ***
+          32 delay_ms [4]
+            36 - [0]
+          32 eusci_b_i2c_rx_multi [20]
+            40 eusci_b_i2c_port_init [12] ***
+            42 - [0]
+        14 delay_micro_second [6] ***
+        14 switch_port [36]
+          18 control_multiplexer [32]
+            30 Reset_switch [10]
+              34 GPIO_setOutputLowOnPin [4]
+                38 - [0]
+              34 delay_micro_second [6] ***
+              34 GPIO_setOutputHighOnPin [4]
+                38 - [0]
+              30 delay_micro_second [6] ***
+            30 eusci_b_i2c_tx_multi [16] ***
+            30 eusci_b_i2c_rx_multi [20] ***
+      4 task_run [276]
+        8 measure_all_rht [70]
+          14 measure_rht [64]
+            24 memset [4]
+              28 - [0]
+            26 SHT3X_GetTempAndHumi [52]
+              32 SHT3X_GetTempAndHumiClkStretch [32]
+                48 SHT3X_StartWriteAccess [4]
+                  52 - [0]
+                48 SHT3X_WriteCommand [4]
+                  52 - [0]
+                48 SHT3X_StartReadAccess [4]
+                  52 - [0]
+                48 SHT3X_Read2BytesAndCrc [4]
+                  52 - [0]
+                48 SHT3X_StopAccess [4]
+                  52 - [0]
+                48 SHT3X_CalcTemperature [16]
+                  52 _Cast32uto32f [8]
+                    60 - [0]
+                  52 ?Mul32fHw32 [10]
+                    62 - [0]
+                  52 _Div32f [12]
+                    64 - [0]
+                  48 _Add32f [12]
+                    60 - [0]
+                48 SHT3X_CalcHumidity [14]
+                  52 _Cast32uto32f [8] ***
+                  52 ?Mul32fHw32 [10] ***
+                  48 _Div32f [12] ***
+              32 SHT3X_GetTempAndHumiPolling [46]
+                58 eusci_b_i2c_tx_multi [16] ***
+                58 delay_micro_second [6] ***
+                58 eusci_b_i2c_rx_multi [20] ***
+                58 SHT3X_CalcCrc [6]
+                  64 - [0]
+                58 SHT3X_CalcTemperature [16] ***
+                58 SHT3X_CalcHumidity [14] ***
+            24 ?Mul32fHw32 [10] ***
+            24 _Cast32fto32s [12]
+              28 ?FLT_Extract [8]
+                36 - [0]
+          14 switch_port_sht [36]
+            18 control_multiplexer [32] ***
+          14 chk_ui_cmd [24]
+            18 command_Write_BSN [20]
+              30 ?Mul64Hw32 [8]
+                38 - [0]
+              30 RxBuf_CMD_Clear [4]
+                30 memset [4] ***
+                34 - [0]
+              32 - [0]
+            18 command_Wrire_Zero [8]
+              22 RxBuf_CMD_Clear [4] ***
+            18 command_Wrire_Span [8]
+              22 RxBuf_CMD_Clear [4] ***
+            18 command_tabpage [8]
+              22 RxBuf_CMD_Clear [4] ***
+        8 measure_gases_data [62]
+          12 datalink_clear [4]
+            16 - [0]
+          12 sensordata_init [4]
+            16 - [0]
+          12 gat_all_gas_data [58]
+            24 aeclmg_getAdc_2 [46]
+              50 aeclmg_calcCrc [6] ***
+              50 eusci_b_i2c_tx_multi [16] ***
+              50 delay_ms [4] ***
+              50 eusci_b_i2c_rx_multi [20] ***
+              50 ?DivMod16s [10]
+                56 ?DivMod16u [4]
+                  60 - [0]
+            24 aeclmg_getAdc_1 [46]
+              50 aeclmg_calcCrc [6] ***
+              50 eusci_b_i2c_tx_multi [16] ***
+              50 delay_ms [4] ***
+              50 eusci_b_i2c_rx_multi [20] ***
+              50 ?DivMod16s [10] ***
+            24 aeclmg_get_gas_concentrations [34]
+              38 aeclmg_calcCrc [6] ***
+              38 eusci_b_i2c_tx_multi [16] ***
+              38 delay_ms [4] ***
+              38 eusci_b_i2c_rx_multi [20] ***
+          12 delay_micro_second [6] ***
+          12 switch_port [36] ***
+        8 ui_parameter_post [272]
+          12 data_to_UCA [268]
+            16 int_to_str_func [264]
+              28 memset [4] ***
+              36 sprintf [244]
+                48 _PrintfLargeNoMb [232]
+                  160 _PutcharLargeNoMb [16]
+                    172 _SProut [4]
+                      176 - [0]
+                  160 __iar_Strchr [4]
+                    164 - [0]
+                  160 strlen [4]
+                    164 - [0]
+                  160 __iar_Memchr [4]
+                    164 - [0]
+                  160 _LdtobLargeNoMb [120]
+                    230 __iar_Dunscale [4]
+                      234 - [0]
+                    230 memcpy [4] ***
+                    230 ?FLT_LT [6]
+                      236 - [0]
+                    230 ?Mul16to32sHw [6]
+                      236 - [0]
+                    230 ?DivMod32s [16]
+                      236 ?DivMod32u [10]
+                        246 - [0]
+                    230 scale [24]
+                      244 ?Mul32fHw32 [10] ***
+                    230 _Div32f [12] ***
+                    230 _Cast32fto32u [12]
+                      234 ?FLT_Extract [8] ***
+                    230 ?DivMod32u [10] ***
+                    230 _Cast32uto32f [8] ***
+                    230 _Sub32f [12]
+                      230 _Add32f [12] ***
+                    230 ?Mul32fHw32 [10] ***
+                    232 _GenldLargeNoMb [48]
+                      264 memcpy [4] ***
+                      264 div [16]
+                        270 ?DivMod16s [10] ***
+                      268 memcpy [4] ***
+                      272 - [0]
+                  160 LoadInt [8]
+                    168 - [0]
+                  160 _LitobLargeNoMb [82]
+                    208 _Div64u [34]
+                      242 - [0]
+                    208 ?Mul8Hw [6]
+                      208 ?Mul16Hw [6]
+                        214 - [0]
+                    212 - [0]
+                  162 pad [50]
+                    180 _PutcharsLargeNoMb [32]
+                      196 _PutcharLargeNoMb [16] ***
+                  162 _PutcharsLargeNoMb [32] ***
+                  170 - [0]
+            16 Zero_WE_to_UCA_count [8]
+              20 ui_print [4]
+                24 - [0]
+              16 ui_print [4] ***
+            16 Zero_AE_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+            16 Span_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+            16 FW_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+            16 BSN_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+            16 SSN_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+            16 Sensor_Name_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+            16 ppb_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+            16 chk_ui_cmd [24] ***
+            16 WE_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+            16 AE_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+            16 ADC_produce [12]
+              28 - [0]
+            16 ADC_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+            16 SHT_to_UCA_count [8]
+              20 ui_print [4] ***
+              16 ui_print [4] ***
+        8 measure_gases_info [74]
+          12 datalink_clear [4] ***
+          12 sensorinfo_init [4]
+            16 - [0]
+          12 get_all_gas_info [70]
+            24 aeclmg_get_gas_name [58]
+              62 aeclmg_calcCrc [6] ***
+              62 eusci_b_i2c_tx_multi [16] ***
+              62 delay_ms [4] ***
+              62 eusci_b_i2c_rx_multi [20] ***
+              62 ?DivMod16s [10] ***
+            24 aeclmg_getSerialId [54]
+              58 aeclmg_calcCrc [6] ***
+              58 eusci_b_i2c_tx_multi [16] ***
+              58 delay_ms [4] ***
+              58 eusci_b_i2c_rx_multi [20] ***
+              58 ?DivMod16s [10] ***
+            24 aeclmg_get_fw_version [34]
+              38 aeclmg_calcCrc [6] ***
+              38 eusci_b_i2c_tx_multi [16] ***
+              38 delay_ms [4] ***
+              38 eusci_b_i2c_rx_multi [20] ***
+            24 aeclmg_get_cal_date [42]
+              46 aeclmg_calcCrc [6] ***
+              46 eusci_b_i2c_tx_multi [16] ***
+              46 delay_ms [4] ***
+              46 eusci_b_i2c_rx_multi [20] ***
+              46 ?DivMod16s [10] ***
+            24 aeclmg_get_gas_cal_zero [46]
+              50 aeclmg_calcCrc [6] ***
+              50 eusci_b_i2c_tx_multi [16] ***
+              50 delay_ms [4] ***
+              50 eusci_b_i2c_rx_multi [20] ***
+              50 ?DivMod16s [10] ***
+            24 aeclmg_get_gas_cal_span [52]
+              56 aeclmg_calcCrc [6] ***
+              56 eusci_b_i2c_tx_multi [16] ***
+              56 delay_ms [4] ***
+              56 eusci_b_i2c_rx_multi [20] ***
+              56 memcpy [4] ***
+            24 ?Mul32fHw32 [10] ***
+            24 _Cast32fto32s [12] ***
+            24 aeclmg_get_gas_cal_a [52]
+              56 aeclmg_calcCrc [6] ***
+              56 eusci_b_i2c_tx_multi [16] ***
+              56 delay_ms [4] ***
+              56 eusci_b_i2c_rx_multi [20] ***
+              56 memcpy [4] ***
+            24 aeclmg_get_gas_cal_b [46]
+              50 aeclmg_calcCrc [6] ***
+              50 eusci_b_i2c_tx_multi [16] ***
+              50 delay_ms [4] ***
+              50 eusci_b_i2c_rx_multi [20] ***
+              50 ?DivMod16s [10] ***
+          12 delay_micro_second [6] ***
+          12 switch_port [36] ***
+    0 exit [14]
+      0 _exit [14]
+        4 __exit [10]
+          10 __DebugBreak [4]
+            14 - [0]
+      4 - [0]
+
+
+

@@ -1,0 +1,143 @@
+C:\CO_test\CO_test\CO_test\obj\Debug\CO_test.exe
+C:\CO_test\CO_test\CO_test\obj\Debug\CO_test.pdb
+C:\CO_test\CO_test\CO_test\obj\Debug\CO_test.csprojResolveAssemblyReference.cache
+C:\CO_test\CO_test\CO_test\obj\Debug\CO_test.Form1.resources
+C:\CO_test\CO_test\CO_test\obj\Debug\CO_test.Properties.Resources.resources
+C:\CO_test\CO_test\CO_test\obj\Debug\CO_test.csproj.GenerateResource.Cache
+C:\CO_test\CO_test\CO_test\bin\Debug\CO_test.exe
+C:\CO_test\CO_test\CO_test\bin\Debug\CO_test.pdb
+D:\FW\CO_test\CO_test\CO_test\obj\Debug\CO_test.exe
+D:\FW\CO_test\CO_test\CO_test\obj\Debug\CO_test.pdb
+D:\FW\CO_test\CO_test\CO_test\bin\Debug\CO_test.exe
+D:\FW\CO_test\CO_test\CO_test\bin\Debug\CO_test.pdb
+D:\FW\CO_test\CO_test\CO_test\obj\Debug\CO_test.csprojResolveAssemblyReference.cache
+D:\FW\CO_test\CO_test\CO_test\obj\Debug\CO_test.Form1.resources
+D:\FW\CO_test\CO_test\CO_test\obj\Debug\CO_test.Properties.Resources.resources
+D:\FW\CO_test\CO_test\CO_test\obj\Debug\CO_test.csproj.GenerateResource.Cache
+D:\CO_test\CO_test\CO_test\obj\Debug\CO_test.exe
+D:\CO_test\CO_test\CO_test\obj\Debug\CO_test.pdb
+D:\CO_test\CO_test\CO_test\bin\Debug\CO_test.exe
+D:\CO_test\CO_test\CO_test\bin\Debug\CO_test.pdb
+D:\CO_test\CO_test\CO_test\obj\Debug\CO_test.csprojResolveAssemblyReference.cache
+D:\CO_test\CO_test\CO_test\obj\Debug\CO_test.Form1.resources
+D:\CO_test\CO_test\CO_test\obj\Debug\CO_test.Properties.Resources.resources
+D:\CO_test\CO_test\CO_test\obj\Debug\CO_test.csproj.GenerateResource.Cache
+D:\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.exe
+D:\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.pdb
+D:\Gases Test UI\CO_test\CO_test\CO_test\bin\Debug\CO_test.exe
+D:\Gases Test UI\CO_test\CO_test\CO_test\bin\Debug\CO_test.pdb
+D:\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.csprojResolveAssemblyReference.cache
+D:\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.Form1.resources
+D:\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.Properties.Resources.resources
+D:\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.csproj.GenerateResource.Cache
+D:\ServerProjectSY - all\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.exe
+D:\ServerProjectSY - all\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.pdb
+D:\ServerProjectSY - all\Gases Test UI\CO_test\CO_test\CO_test\bin\Debug\CO_test.exe
+D:\ServerProjectSY - all\Gases Test UI\CO_test\CO_test\CO_test\bin\Debug\CO_test.pdb
+D:\ServerProjectSY - all\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.csprojResolveAssemblyReference.cache
+D:\ServerProjectSY - all\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.Form1.resources
+D:\ServerProjectSY - all\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.Properties.Resources.resources
+D:\ServerProjectSY - all\Gases Test UI\CO_test\CO_test\CO_test\obj\Debug\CO_test.csproj.GenerateResource.Cache
+C:\Users\Xin.gan\Desktop\大UI_test\CO_test\CO_test\obj\Debug\CO_test.csprojAssemblyReference.cache
+C:\Users\Xin.gan\Desktop\大UI_test\CO_test\CO_test\obj\Debug\CO_test.Form1.resources
+C:\Users\Xin.gan\Desktop\大UI_test\CO_test\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+C:\Users\Xin.gan\Desktop\大UI_test\CO_test\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+C:\Users\xin.gan\Desktop\大UI_test\CO_test\CO_test\bin\Debug\Alphasense_UI.exe
+C:\Users\xin.gan\Desktop\大UI_test\CO_test\CO_test\bin\Debug\Alphasense_UI.pdb
+C:\Users\xin.gan\Desktop\大UI_test\CO_test\CO_test\obj\Debug\Alphasense_UI.Properties.Resources.resources
+C:\Users\xin.gan\Desktop\大UI_test\CO_test\CO_test\obj\Debug\Alphasense_UI.exe
+C:\Users\xin.gan\Desktop\大UI_test\CO_test\CO_test\obj\Debug\Alphasense_UI.pdb
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.exe
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.pdb
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Debug\CO_test.csprojAssemblyReference.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Debug\CO_test.Form1.resources
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.Properties.Resources.resources
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.exe
+C:\Users\xin.gan\Desktop\Alphasense_UI - 測試用\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.pdb
+C:\Users\xin.gan\Desktop\Alphasense_UI\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.exe
+C:\Users\xin.gan\Desktop\Alphasense_UI\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.pdb
+C:\Users\xin.gan\Desktop\Alphasense_UI\Alphasense_UI\CO_test\obj\Debug\CO_test.csprojAssemblyReference.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI\Alphasense_UI\CO_test\obj\Debug\CO_test.Form1.resources
+C:\Users\xin.gan\Desktop\Alphasense_UI\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.Properties.Resources.resources
+C:\Users\xin.gan\Desktop\Alphasense_UI\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.exe
+C:\Users\xin.gan\Desktop\Alphasense_UI\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.pdb
+C:\Users\xin.gan\Desktop\Alphasense_UI V200\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.exe
+C:\Users\xin.gan\Desktop\Alphasense_UI V200\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.pdb
+C:\Users\xin.gan\Desktop\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.csprojAssemblyReference.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.Form1.resources
+C:\Users\xin.gan\Desktop\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.Properties.Resources.resources
+C:\Users\xin.gan\Desktop\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+C:\Users\xin.gan\Desktop\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.exe
+C:\Users\xin.gan\Desktop\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.pdb
+D:\資料夾\Alphasense_UI V200\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.exe
+D:\資料夾\Alphasense_UI V200\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.pdb
+D:\資料夾\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.AssemblyReference.cache
+D:\資料夾\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.Form1.resources
+D:\資料夾\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.Properties.Resources.resources
+D:\資料夾\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+D:\資料夾\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+D:\資料夾\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.exe
+D:\資料夾\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.pdb
+D:\Gan\Alphasense_UI V200\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.exe
+D:\Gan\Alphasense_UI V200\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.pdb
+D:\Gan\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.AssemblyReference.cache
+D:\Gan\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.Form1.resources
+D:\Gan\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.Properties.Resources.resources
+D:\Gan\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+D:\Gan\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+D:\Gan\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.exe
+D:\Gan\Alphasense_UI V200\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.pdb
+D:\Gan\Alphasense_UI V2\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.exe
+D:\Gan\Alphasense_UI V2\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.pdb
+D:\Gan\Alphasense_UI V2\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.AssemblyReference.cache
+D:\Gan\Alphasense_UI V2\Alphasense_UI\CO_test\obj\Debug\CO_test.Form1.resources
+D:\Gan\Alphasense_UI V2\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.Properties.Resources.resources
+D:\Gan\Alphasense_UI V2\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+D:\Gan\Alphasense_UI V2\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+D:\Gan\Alphasense_UI V2\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.exe
+D:\Gan\Alphasense_UI V2\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.pdb
+D:\Gan\Alphasense_UI V2 - 加入絕對溼度\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.exe
+D:\Gan\Alphasense_UI V2 - 加入絕對溼度\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.pdb
+D:\Gan\Alphasense_UI V2 - 加入絕對溼度\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.AssemblyReference.cache
+D:\Gan\Alphasense_UI V2 - 加入絕對溼度\Alphasense_UI\CO_test\obj\Debug\CO_test.Form1.resources
+D:\Gan\Alphasense_UI V2 - 加入絕對溼度\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.Properties.Resources.resources
+D:\Gan\Alphasense_UI V2 - 加入絕對溼度\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+D:\Gan\Alphasense_UI V2 - 加入絕對溼度\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+D:\Gan\Alphasense_UI V2 - 加入絕對溼度\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.exe
+D:\Gan\Alphasense_UI V2 - 加入絕對溼度\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.pdb
+D:\Gan\Fixture and GB code\Alphasense_UI V201\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.exe
+D:\Gan\Fixture and GB code\Alphasense_UI V201\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.pdb
+D:\Gan\Fixture and GB code\Alphasense_UI V201\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.AssemblyReference.cache
+D:\Gan\Fixture and GB code\Alphasense_UI V201\Alphasense_UI\CO_test\obj\Debug\CO_test.Form1.resources
+D:\Gan\Fixture and GB code\Alphasense_UI V201\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.Properties.Resources.resources
+D:\Gan\Fixture and GB code\Alphasense_UI V201\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+D:\Gan\Fixture and GB code\Alphasense_UI V201\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+D:\Gan\Fixture and GB code\Alphasense_UI V201\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.exe
+D:\Gan\Fixture and GB code\Alphasense_UI V201\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.pdb
+D:\Gan\Fixture and GB code\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.exe
+D:\Gan\Fixture and GB code\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.pdb
+D:\Gan\Fixture and GB code\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.AssemblyReference.cache
+D:\Gan\Fixture and GB code\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.Form1.resources
+D:\Gan\Fixture and GB code\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.Properties.Resources.resources
+D:\Gan\Fixture and GB code\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+D:\Gan\Fixture and GB code\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+D:\Gan\Fixture and GB code\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.exe
+D:\Gan\Fixture and GB code\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\Alphasense_UI.pdb
+D:\Gan\Fixture and GB code\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\bin\Debug\Alphasense_UI.exe.config
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.AssemblyReference.cache
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.Form1.resources
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.GenerateResource.cache
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.csproj.CoreCompileInputs.cache
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\bin\Debug\CO_test.exe.config
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\bin\Debug\CO_test.exe
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\bin\Debug\CO_test.pdb
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.Properties.Resources.resources
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.exe
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\obj\Debug\CO_test.pdb
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\bin\Debug\Resources\lock.png
+D:\Intern\mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1\Alphasense_UI V201 - PID版本\Alphasense_UI\CO_test\bin\Debug\Resources\unlock.png

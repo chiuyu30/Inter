@@ -1,4 +1,7 @@
 `timescale 1ns/10ps
+
+`include "LBP.v"
+
 `define CYCLE      12.5          	  // Modify your clock period here
 `define SDFFILE    "./SYN/LBP_syn.sdf"	  // Modify your sdf file name
 `define End_CYCLE  100000000000              // Modify cycle times once your design need more cycle times!
@@ -44,14 +47,16 @@ integer i;
 `endif
 
 initial	$readmemh (`PAT, gray_mem);
-initial	$readmemh (`EXP, exp_mem);
+//initial	$readmemh (`EXP, exp_mem);
 
 always begin #(`CYCLE/2) clk = ~clk; end
 
+/*
 initial begin
 	$fsdbDumpfile("LBP.fsdb");
 	$fsdbDumpvars;
 end
+*/
 
 initial begin  // data input
    @(negedge clk)  reset = 1'b1; 
@@ -128,6 +133,11 @@ initial begin
       #(`CYCLE/2); $finish;
 end
    
+initial begin
+	$dumpfile("wave.vcd");
+	$dumpvars(0, testfixture);
+end
+
 endmodule
 
 

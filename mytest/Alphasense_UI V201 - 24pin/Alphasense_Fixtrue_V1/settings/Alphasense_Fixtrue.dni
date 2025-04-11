@@ -1,0 +1,180 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Simulator]
+Freq=1000000
+[EEM State Storage]
+Buffer=BAAAAAAAAAAAAAAAAAAAAAAA
+[EEM Sequencer]
+Buffer=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[EEM Cycle Counter 0]
+Counter0=GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA
+[EEM Cycle Counter 1]
+Counter1=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA
+[DebugChecksum]
+Checksum=290515115
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[array_types]
+Fmt0=INT64 [12]	4	0
+Fmt1=INT64 [9]	3	0
+Fmt2=UINT8 [11]	4	0
+Fmt3=UINT8 [1]	4	0
+Fmt4=UINT8 [2]	4	0
+Fmt5=UINT8 [3]	3	0
+Fmt6=UINT8 [6]	4	0
+Fmt7=UINT8 [8]	4	0
+Fmt8=UINT8 [9]	4	0
+Fmt9=long[9]	3	0
+[watch_formats]
+Fmt0={W}1:GB_u8txLength	3	0
+Fmt1={W}1:SHT2X_ACK	4	0
+Fmt2={W}1:SHT2x_Get_data	4	0
+Fmt3={W}1:SHT2x_SCL	3	0
+Fmt4={W}1:SHT2x_SDA	3	0
+Fmt5={W}1:SHT2x_addr	4	0
+Fmt6={W}1:SHT2x_flag	3	0
+Fmt7={W}1:SHT_PORT_DIR	1	0
+Fmt8={W}1:SHT_PORT_OUT	1	0
+Fmt9={W}1:UCB0I2CSA	4	0
+Fmt10={W}1:bit	3	0
+Fmt11={W}1:command	4	0
+Fmt12={W}1:crc	4	0
+Fmt13={W}1:error	4	0
+Fmt14={W}1:ftick_lag_count	3	0
+Fmt15={W}1:i	3	0
+Fmt16={W}1:k	3	0
+Fmt17={W}1:mask	1	0
+Fmt18={W}1:port_count	3	0
+Fmt19={W}1:port_numbers	3	0
+Fmt20={W}1:rawValueRH	4	0
+Fmt21={W}1:rawValueTemp	4	0
+Fmt22={W}1:rxByte	1	0
+Fmt23={W}1:status	3	0
+Fmt24={W}1:txByte	4	0
+Fmt25={W}2:checksum	4	0
+Fmt26={W}2:crc	4	0
+[PowerLog]
+Title_0=Energy
+Symbol_0=0 4 0
+Title_1=Voltage
+Symbol_1=0 4 0
+Title_2=Current
+Symbol_2=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\¸ê®Æ§¨\Alphasense Fixture V200}.88.3" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\¸ê®Æ§¨\Alphasense Fixture V200}.80.3" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\¸ê®Æ§¨\Alphasense Fixture V200}.78.3" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\¸ê®Æ§¨\Alphasense Fixture V200}.270.1" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\¸ê®Æ§¨\Alphasense Fixture V200}.270.11" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\¸ê®Æ§¨\Alphasense Fixture V200}.270.11" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{$PROJ_DIR$\..\..\Alphasense Fixture V2 - ¥[¤JSO2}.277.11" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{$PROJ_DIR$\..\..\Alphasense Fixture V2 - ¥[¤JSO2}.785.13" 0 0 0 0 "" 0 ""
+Bp8=_ "Conditional" "Memory:0x168" 0 "<not used>" 2 3 18 1 0 0 "0x0044" 3 16 "0xFFFFF" "0xFFFFF" 0 0
+Bp9=_ "STD_CODE" "{D:\download\Alphasense_Fixture_V2_24pin\Alphasense_Fixture_V2_24pin}.64.1" 0 0 0 0 "" 0 ""
+Bp10=_ "STD_CODE" "{$PROJ_DIR$\..\driverlib\MSP430F5xx_6xx\ucs.c}.907.5" 0 0 0 0 "" 0 ""
+Bp11=_ "STD_CODE" "{$PROJ_DIR$\..\driverlib\MSP430F5xx_6xx\ucs.c}.907.5" 0 0 0 0 "" 0 ""
+Bp12=_ "STD_CODE" "{$PROJ_DIR$\..\driverlib\MSP430F5xx_6xx\ucs.c}.907.5" 0 0 0 0 "" 0 ""
+Bp13=_ "STD_CODE" "{$PROJ_DIR$\..\driverlib\MSP430F5xx_6xx\ucs.c}.907.5" 0 0 0 0 "" 0 ""
+Bp14=_ "STD_CODE" "{$PROJ_DIR$\..\driverlib\MSP430F5xx_6xx\ucs.c}.907.5" 0 0 0 0 "" 0 ""
+Bp15=_ "STD_CODE" "{$PROJ_DIR$\..\driverlib\MSP430F5xx_6xx\ucs.c}.907.5" 0 0 0 0 "" 0 ""
+Bp16=_ "STD_CODE" "{$PROJ_DIR$\..\driverlib\MSP430F5xx_6xx\ucs.c}.907.5" 0 0 0 0 "" 0 ""
+Bp17=_ "STD_CODE" "{$PROJ_DIR$\libs\BSP\task.c}.78.5" 1 0 0 0 "" 0 ""
+Count=18
+[FET]
+Clock mode=39
+Extended Clock mode=1
+Secure Password=
+Extended Clock Control Enable=1
+Advanced Extended Clock Control=0
+Emulation mode=0
+Free running=0
+Shutting Down=1
+[Memory Dump]
+Start address=
+Lenghth=
+Address info=0
+Format=0
+Dump registers=0
+PC=0
+SP=0
+SR=0
+all registers=0
+File name=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "C:\Users\steve.li\Desktop\GASV3\Alphasense Fixture V2_24pin\driverlib\MSP430F5xx_6xx\eusci_a_uart.c" ""
+A1=_ "C:\Users\steve.li\Desktop\GASV3\Alphasense Fixture V2_24pin\driverlib\MSP430F5xx_6xx\gpio.c" "D:\download\Alphasense_Fixture_V2_24pin\Alphasense_Fixture_V2_24pin\driverlib\MSP430F5xx_6xx\gpio.c"
+A2=_ "C:\Users\steve.li\Desktop\GASV3\Alphasense Fixture V2_24pin\driverlib\MSP430F5xx_6xx\sfr.c" "D:\download\Alphasense_Fixture_V2_24pin\Alphasense_Fixture_V2_24pin\driverlib\MSP430F5xx_6xx\sfr.c"
+A3=_ "C:\Users\steve.li\Desktop\GASV3\Alphasense Fixture V2_24pin\driverlib\MSP430F5xx_6xx\ucs.c" "D:\download\Alphasense_Fixture_V2_24pin\Alphasense_Fixture_V2_24pin\driverlib\MSP430F5xx_6xx\ucs.c"
+A4=_ "C:\Users\steve.li\Desktop\GASV3\Alphasense Fixture V2_24pin\driverlib\MSP430F5xx_6xx\wdt_a.c" "D:\download\Alphasense_Fixture_V2_24pin\Alphasense_Fixture_V2_24pin\driverlib\MSP430F5xx_6xx\wdt_a.c"
+A5=_ "C:\Users\steve.li\Desktop\Online_project\GASV3\Alphasense Fixture V2_24pin\Alphasense_Fixtrue_V1\libs\Sensors\SHT3x\sht3x_native.c" "D:\download\Alphasense_Fixture_V2_24pin\Alphasense_Fixture_V2_24pin\Alphasense_Fixtrue_V1\libs\Sensors\SHT3x\sht3x_native.c"
+A6=_ "C:\Users\steve.li\Desktop\Online_project\GASV3\Alphasense Fixture V2_24pin\Alphasense_Fixtrue_V1\main.c" "D:\download\Alphasense_Fixture_V2_24pin\Alphasense_Fixture_V2_24pin\Alphasense_Fixtrue_V1\main.c"
+A7=_ "C:\Users\steve.li\Desktop\æ°??å¯¦é?å®¤ç®¡?†è¾¦æ³•\GAS?ºè²¨?¡æ­£æ¸¬è©¦ç®¡ç?è¾¦æ?\GASV2\Alphasense Fixture V2_24pin\Alphasense_Fixtrue_V1\main.c" "C:\Users\steve.li\Desktop\®ðÅé¹êÅç«ÇºÞ²z¿ìªk\GAS¥X³f®Õ¥¿´ú¸ÕºÞ²z¿ìªk\GASV2\Alphasense Fixture V2_24pin\Alphasense_Fixtrue_V1\main.c"
+A8=_ "D:\è³‡æ?å¤¾\Alphasense Fixture V200\Alphasense_Fixtrue_V1\libs\Abstraction\peripheral_abstraction.c" ""
+A9=_ "D:\è³‡æ?å¤¾\Alphasense Fixture V200\Alphasense_Fixtrue_V1\libs\Peripharals\hal_sd24.c" ""
+A10=_ "D:\è³‡æ?å¤¾\Alphasense Fixture V200\Alphasense_Fixtrue_V1\libs\Peripharals\ui_command.c" ""
+A11=_ "D:\è³‡æ?å¤¾\Alphasense Fixture V200\Alphasense_Fixtrue_V1\libs\Sensors\SHT2x\SHT2x.c" ""
+A12=_ "D:\è³‡æ?å¤¾\Alphasense Fixture V200\Alphasense_Fixtrue_V1\main.c" "D:\Gan\Alphasense Fixture V200\Alphasense_Fixtrue_V1\main.c"
+A13=_ "D:\è³‡æ?å¤¾\Alphasense Fixture V200\driverlib\MSP430F5xx_6xx\eusci_a_uart.c" ""
+A14=_ "D:\è³‡æ?å¤¾\Alphasense Fixture V200\driverlib\MSP430F5xx_6xx\ref.c" ""
+A15=_ "D:\è³‡æ?å¤¾\Alphasense Fixture V200\driverlib\MSP430F5xx_6xx\sd24_b.c" "D:\Gan\Alphasense Fixture V200\driverlib\MSP430F5xx_6xx\sd24_b.c"
+A16=_ "D:\è³‡æ?å¤¾\Alphasense Fixture V200\driverlib\MSP430F5xx_6xx\sfr.c" ""
+A17=_ "D:\è³‡æ?å¤¾\Alphasense Fixture V200\driverlib\MSP430F5xx_6xx\timer_a.c" ""
+Count=18
+SuppressDialog=1
+[PowerProbe]
+Frequency=10000
+Probe0=Current
+ProbeSetup0=0 1 1 2 0 0
+Probe1=Voltage
+ProbeSetup1=1 1 1 4 0 0
+Probe2=Energy
+ProbeSetup2=4 1 1 10 0 0

@@ -18,6 +18,8 @@ print(f'\n\n =============== OriginData ================ \n\n {data}')
 
 positive_count_91 = 0 #有效次數
 positive_count_95 = 0 #有效次數
+count_91 = 0
+count_95 = 0
 
 ppb_bias_91 = 0 #當次偏置
 ppb_sample_91_list = []
