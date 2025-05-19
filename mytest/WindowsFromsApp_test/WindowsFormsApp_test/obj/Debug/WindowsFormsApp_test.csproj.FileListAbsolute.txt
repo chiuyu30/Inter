@@ -8,3 +8,13 @@ D:\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_te
 D:\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_test.exe
 D:\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_test.pdb
 D:\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_test.picture_viewer.resources
+D:\Intern\mytest\WindowsFromsApp_test\WindowsFormsApp_test\bin\Debug\WindowsFormsApp_test.exe.config
+D:\Intern\mytest\WindowsFromsApp_test\WindowsFormsApp_test\bin\Debug\WindowsFormsApp_test.exe
+D:\Intern\mytest\WindowsFromsApp_test\WindowsFormsApp_test\bin\Debug\WindowsFormsApp_test.pdb
+D:\Intern\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_test.csproj.AssemblyReference.cache
+D:\Intern\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_test.picture_viewer.resources
+D:\Intern\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_test.Properties.Resources.resources
+D:\Intern\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_test.csproj.GenerateResource.cache
+D:\Intern\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_test.csproj.CoreCompileInputs.cache
+D:\Intern\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_test.exe
+D:\Intern\mytest\WindowsFromsApp_test\WindowsFormsApp_test\obj\Debug\WindowsFormsApp_test.pdb

@@ -1,0 +1,10 @@
+D:\Intern\mytest\WindowsFromsApp_test\SLM5X_UI\SLM5X_UI\bin\Debug\SLM5X_UI.exe.config
+D:\Intern\mytest\WindowsFromsApp_test\SLM5X_UI\SLM5X_UI\bin\Debug\SLM5X_UI.exe
+D:\Intern\mytest\WindowsFromsApp_test\SLM5X_UI\SLM5X_UI\bin\Debug\SLM5X_UI.pdb
+D:\Intern\mytest\WindowsFromsApp_test\SLM5X_UI\SLM5X_UI\obj\Debug\SLM5X_UI.csproj.AssemblyReference.cache
+D:\Intern\mytest\WindowsFromsApp_test\SLM5X_UI\SLM5X_UI\obj\Debug\SLM5X_UI.Form1.resources
+D:\Intern\mytest\WindowsFromsApp_test\SLM5X_UI\SLM5X_UI\obj\Debug\SLM5X_UI.Properties.Resources.resources
+D:\Intern\mytest\WindowsFromsApp_test\SLM5X_UI\SLM5X_UI\obj\Debug\SLM5X_UI.csproj.GenerateResource.cache
+D:\Intern\mytest\WindowsFromsApp_test\SLM5X_UI\SLM5X_UI\obj\Debug\SLM5X_UI.csproj.CoreCompileInputs.cache
+D:\Intern\mytest\WindowsFromsApp_test\SLM5X_UI\SLM5X_UI\obj\Debug\SLM5X_UI.exe
+D:\Intern\mytest\WindowsFromsApp_test\SLM5X_UI\SLM5X_UI\obj\Debug\SLM5X_UI.pdb

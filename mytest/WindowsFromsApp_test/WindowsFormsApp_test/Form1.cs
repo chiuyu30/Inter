@@ -69,6 +69,13 @@ namespace WindowsFormsApp_test
                 pictureBox1.SizeMode = PictureBoxSizeMode.Normal;
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var power = SystemInformation.PowerStatus;
+            Console.WriteLine("是否接市電:" + power.PowerLineStatus);
+            Console.WriteLine("UPS 是否供電中:" + power.BatteryChargeStatus);
+            Console.WriteLine("電池剩餘電量 (%):" + power.BatteryLifePercent);
+            Console.WriteLine("預估可用時間:" + power.BatteryLifeRemaining);
+        }
     }
 }

@@ -1,0 +1,31 @@
+|HW21
+clk => test:gate0.clk
+x => test:gate0.x
+C << test:gate0.a_out
+B << test:gate0.b_out
+A << test:gate0.c_out
+Z << test:gate0.f
+
+
+|HW21|test:gate0
+clk => z[0].CLK
+clk => z[1].CLK
+clk => z[2].CLK
+x => f.IN1
+x => f.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+a_out <= z[0].DB_MAX_OUTPUT_PORT_TYPE
+b_out <= z[1].DB_MAX_OUTPUT_PORT_TYPE
+c_out <= z[2].DB_MAX_OUTPUT_PORT_TYPE
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

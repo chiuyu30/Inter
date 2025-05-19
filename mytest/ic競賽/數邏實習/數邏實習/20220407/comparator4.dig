@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Comparator4</string>
+        </entry>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>X:4,Y:4,Ci0,Ci1</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+entity Comparator4 is
+port (
+    X, Y: in std_logic_vector(3 downto 0);
+    Ci0, Ci1: in std_logic;
+    Co0, Co1: out std_logic);
+end Comparator4;
+
+architecture Structure of Comparator4 is
+component Comparator
+	port (Xi, Yi, Ci0, Ci1: in std_logic;
+	     Co0, Co1: out std_logic);
+end component;
+
+signal C1: std_logic_vector(2 downto 0);
+signal C2: std_logic_vector(2 downto 0);
+begin
+	CP0: Comparator port map(X(0), Y(0), Ci0, Ci1, C1(0), C2(0));
+	CP1: Comparator port map(X(1), Y(1), C1(0), C2(0), C1(1), C2(1));
+	CP2: Comparator port map(X(2), Y(2), C1(1), C2(1), C1(2), C2(2));
+	CP3: Comparator port map(X(3), Y(3), C1(2), C2(2), Co0, Co1);
+end Structure;
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+entity Comparator is
+  port (
+    Xi, Yi, Ci0, Ci1: in std_logic;
+    Co0, Co1: out std_logic);
+end Comparator;
+
+architecture Equations of Comparator is
+    signal input: std_logic_vector (0 to 3);
+begin
+    input &lt;= Xi &amp; Yi &amp; Ci0 &amp; Ci1;
+    with input select
+    Co0 &lt;= &apos;1&apos; when &quot;0010&quot;,
+	   &apos;1&apos; when &quot;1000&quot;,
+	   &apos;1&apos; when &quot;1001&quot;,
+	   &apos;1&apos; when &quot;1010&quot;,
+	   &apos;1&apos; when &quot;1011&quot;,
+	   &apos;1&apos; when &quot;1110&quot;,
+	   &apos;0&apos; when others;
+    with input select
+    Co1 &lt;= &apos;1&apos; when &quot;0001&quot;,
+	   &apos;1&apos; when &quot;0100&quot;,
+	   &apos;1&apos; when &quot;0101&quot;,
+	   &apos;1&apos; when &quot;0110&quot;,
+	   &apos;1&apos; when &quot;0111&quot;,
+	   &apos;1&apos; when &quot;1101&quot;,
+	   &apos;0&apos; when others;
+
+end Equations;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Co0,Co1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>X</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Y</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Ci0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CI1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>X</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Y</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="660"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="980" y="640"/>
+      <p2 x="1020" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="640"/>
+      <p2 x="1120" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="580"/>
+      <p2 x="1000" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="660"/>
+      <p2 x="1020" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="660"/>
+      <p2 x="1140" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="680"/>
+      <p2 x="1020" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="620"/>
+      <p2 x="1020" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="620"/>
+      <p2 x="980" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="620"/>
+      <p2 x="1140" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="700"/>
+      <p2 x="980" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="640"/>
+      <p2 x="1120" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="620"/>
+      <p2 x="980" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="680"/>
+      <p2 x="980" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="580"/>
+      <p2 x="1000" y="620"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
