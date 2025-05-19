@@ -2,9 +2,10 @@
 *.7z
 
 # 忽略某個資料夾中的所有檔案
-mytest/Alphasense_Fixture_V2_24pin new/*
-mytest/tortoisegit_test/*
-mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1/*
-mytest\WindowsFromsApp_test\MyTest/*
+mytest/Alphasense_Fixture_V2_24pin new/
+mytest/tortoisegit_test/
+mytest/WindowsFromsApp_test/Alphasense_UI V201 - PID版本 1/
+mytest/WindowsFromsApp_test/MyTest/
+mytest/WindowsFromsApp_test/sabio4010_test/
 
 
