@@ -1,0 +1,10 @@
+# 忽略所有 .7z 檔案
+*.7z
+
+# 忽略某個資料夾中的所有檔案
+mytest/Alphasense_Fixture_V2_24pin new/*
+mytest/tortoisegit_test/*
+mytest\WindowsFromsApp_test\Alphasense_UI V201 - PID版本 1/*
+mytest\WindowsFromsApp_test\MyTest/*
+
+
